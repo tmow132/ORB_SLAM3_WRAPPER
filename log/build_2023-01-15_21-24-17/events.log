@@ -1,0 +1,721 @@
+[0.000000] (-) TimerEvent: {}
+[0.001405] (ros2_orb_slam) JobQueued: {'identifier': 'ros2_orb_slam', 'dependencies': OrderedDict()}
+[0.001503] (ros2_orb_slam) JobStarted: {'identifier': 'ros2_orb_slam'}
+[0.014125] (ros2_orb_slam) JobProgress: {'identifier': 'ros2_orb_slam', 'progress': 'cmake'}
+[0.014680] (ros2_orb_slam) JobProgress: {'identifier': 'ros2_orb_slam', 'progress': 'build'}
+[0.015194] (ros2_orb_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam', '--', '-j16', '-l16'], 'cwd': '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mantus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '2028'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mantus/Pangolin/build/:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/lib:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mantus'), ('OLDPWD', '/home/mantus/kol_bot/ros2_orb_slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1783'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=096fb2c57b81f6096dfdbef263c33f6f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install:/home/mantus/kol_bot/ros2_orb_slam/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mantus'), ('JOURNAL_STREAM', '8:57461'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mantus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mantus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mantus-Legion-5-15ACH6H:@/tmp/.ICE-unix/2101,unix/mantus-Legion-5-15ACH6H:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', 'd5925e2ee11c4bd5a4544114ca5e3660'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f291701b_4760_4b46_818b_a8f39ed877ab'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam:/home/mantus/kol_bot/ros2_orb_slam/install/ros2_orb_slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=096fb2c57b81f6096dfdbef263c33f6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam:/home/mantus/kol_bot/ros2_orb_slam/install/ros2_orb_slam:/opt/ros/foxy')]), 'shell': False}
+[0.057578] (ros2_orb_slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam\x1b[0m\n'}
+[0.099313] (-) TimerEvent: {}
+[0.111108] (ros2_orb_slam) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/slam.dir/src/rgbd-slam-node.cpp.o\x1b[0m\n'}
+[0.199426] (-) TimerEvent: {}
+[0.299740] (-) TimerEvent: {}
+[0.400103] (-) TimerEvent: {}
+[0.500573] (-) TimerEvent: {}
+[0.600877] (-) TimerEvent: {}
+[0.701195] (-) TimerEvent: {}
+[0.801619] (-) TimerEvent: {}
+[0.902103] (-) TimerEvent: {}
+[1.002397] (-) TimerEvent: {}
+[1.102720] (-) TimerEvent: {}
+[1.203047] (-) TimerEvent: {}
+[1.303362] (-) TimerEvent: {}
+[1.403683] (-) TimerEvent: {}
+[1.504007] (-) TimerEvent: {}
+[1.604364] (-) TimerEvent: {}
+[1.704677] (-) TimerEvent: {}
+[1.804982] (-) TimerEvent: {}
+[1.905352] (-) TimerEvent: {}
+[2.005873] (-) TimerEvent: {}
+[2.106193] (-) TimerEvent: {}
+[2.206519] (-) TimerEvent: {}
+[2.306854] (-) TimerEvent: {}
+[2.407163] (-) TimerEvent: {}
+[2.507505] (-) TimerEvent: {}
+[2.607801] (-) TimerEvent: {}
+[2.708116] (-) TimerEvent: {}
+[2.808420] (-) TimerEvent: {}
+[2.908731] (-) TimerEvent: {}
+[3.009153] (-) TimerEvent: {}
+[3.109654] (-) TimerEvent: {}
+[3.209955] (-) TimerEvent: {}
+[3.310251] (-) TimerEvent: {}
+[3.410709] (-) TimerEvent: {}
+[3.511270] (-) TimerEvent: {}
+[3.611585] (-) TimerEvent: {}
+[3.711898] (-) TimerEvent: {}
+[3.787983] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[3.788204] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.788281] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.788347] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.788407] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.788466] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.788528] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.788583] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[3.788641] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.788697] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.788753] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[3.788812] (ros2_orb_slam) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[3.788868] (ros2_orb_slam) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.812001] (-) TimerEvent: {}
+[3.878604] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[3.878876] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.878974] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.879045] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.879104] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.879165] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.879247] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.879307] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.879365] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.879421] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[3.879478] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.879536] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[3.879589] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.879659] (ros2_orb_slam) StderrLine: {'line': b'   62 | Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[3.879710] (ros2_orb_slam) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.879758] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[3.879806] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.879854] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[3.879902] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[3.879952] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.879999] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.880049] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.880096] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.899095] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.899566] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.899654] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.899731] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.899804] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.899875] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.899945] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.900013] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.900081] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.900147] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[3.900212] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.900277] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.900355] (ros2_orb_slam) StderrLine: {'line': b'   59 | :Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[3.900423] (ros2_orb_slam) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.900488] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[3.900552] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.900617] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[3.900668] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[3.900713] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.900759] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.900804] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.900850] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.900895] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[3.900941] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.900985] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.901031] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.901079] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.901125] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.901170] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.901236] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.901297] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.901343] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[3.901389] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.901438] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[3.901487] (ros2_orb_slam) StderrLine: {'line': b'   60 | :Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[3.901537] (ros2_orb_slam) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.901582] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[3.901627] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[3.901672] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[3.901718] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[3.901764] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.901810] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.901855] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[3.901901] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.912126] (-) TimerEvent: {}
+[3.945727] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41\x1b[m\x1b[K,\n'}
+[3.945945] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[3.946015] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[3.946077] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[3.946136] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[3.946193] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[3.946249] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[3.946307] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[3.946365] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[3.946423] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[3.946482] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[3.946540] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[3.946598] (ros2_orb_slam) StderrLine: {'line': b'   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.946653] (ros2_orb_slam) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.946711] (ros2_orb_slam) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[4.012246] (-) TimerEvent: {}
+[4.112584] (-) TimerEvent: {}
+[4.212909] (-) TimerEvent: {}
+[4.261316] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.261509] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.261572] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.261624] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.261673] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.261721] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.261769] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.261816] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.261863] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.261911] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.261958] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.262007] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.262058] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[4.262106] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.262154] (ros2_orb_slam) StderrLine: {'line': b'   62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.262200] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.262247] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.262306] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.262358] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.262406] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.262453] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.262504] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.262551] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.262596] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.291237] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.291425] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.291488] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.291544] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.291596] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.291646] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.291695] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.291744] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.291799] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.291855] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.291906] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.291955] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.292006] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[4.292056] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.292110] (ros2_orb_slam) StderrLine: {'line': b'   62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.292161] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.292210] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.292259] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.292312] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.292360] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.292409] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.292461] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.292507] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.292557] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.313030] (-) TimerEvent: {}
+[4.320709] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.321149] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.321245] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.321318] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.321384] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.321455] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.321519] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.321580] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.321641] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.321702] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.321763] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.321822] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.321884] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[4.321946] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.322013] (ros2_orb_slam) StderrLine: {'line': b'   59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.322085] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.322150] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.322211] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.322272] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.322331] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.322390] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.322450] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.322495] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.322539] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.322583] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.322628] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.322671] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.322716] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.322762] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.322808] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.322854] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.322901] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.322948] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.322995] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.323045] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.323091] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.323138] (ros2_orb_slam) StderrLine: {'line': b'   60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.323184] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.323232] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.323277] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.323323] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.323367] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.323412] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.323457] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.323502] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.323547] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.413145] (-) TimerEvent: {}
+[4.426729] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.426942] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.427015] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.427078] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.427138] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.427202] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.427260] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.427315] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.427369] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.427423] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.427480] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.427536] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.427594] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[4.427643] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.427699] (ros2_orb_slam) StderrLine: {'line': b'   59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.427747] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.427795] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.427841] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.427888] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.427954] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.428002] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.428048] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.428095] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.428145] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.441190] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.441411] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.441481] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.441545] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.441605] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.441662] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.441719] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.441774] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.441828] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.441882] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.441937] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.441992] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.442062] (ros2_orb_slam) StderrLine: {'line': b'   60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.442120] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.442179] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.442235] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.442290] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.442344] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.442397] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.442451] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.442506] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.442569] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.503856] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.504139] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.504211] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.504282] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.504344] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.504404] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.504459] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.504513] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.504569] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.504625] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.504678] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.504733] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.504794] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[4.504844] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.504893] (ros2_orb_slam) StderrLine: {'line': b'   59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.504942] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.504989] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.505035] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.505080] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.505125] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.505169] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.505222] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.505282] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.505328] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.505373] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.505422] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.505468] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.505512] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.505559] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.505604] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.505650] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.505695] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.505739] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.505784] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.505828] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.505873] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.505924] (ros2_orb_slam) StderrLine: {'line': b'   60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.505970] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.506014] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.506058] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.506101] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.506146] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.506191] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.506235] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.506305] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.506358] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.513354] (-) TimerEvent: {}
+[4.613890] (-) TimerEvent: {}
+[4.714201] (-) TimerEvent: {}
+[4.728234] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.728427] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.728499] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.728567] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.728630] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.728691] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.728751] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.728811] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.728868] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.728926] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.728981] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.729036] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.729102] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[4.729159] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.729264] (ros2_orb_slam) StderrLine: {'line': b'   62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.729353] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.729405] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.729454] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.729501] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.729549] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.729598] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.729643] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.729690] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.729735] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.761932] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.762120] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.762195] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.762257] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.762317] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.762376] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.762435] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.762492] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.762550] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.762606] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.762671] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.762728] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.762824] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[4.762937] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.763018] (ros2_orb_slam) StderrLine: {'line': b'   59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.763080] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.763137] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.763192] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.763251] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.763300] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.763353] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.763401] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.763448] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.763495] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.763542] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.763590] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.763636] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.763683] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.763730] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.763776] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.763821] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.763866] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.763916] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.763963] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.764011] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.764097] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.764182] (ros2_orb_slam) StderrLine: {'line': b'   60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.764234] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.764282] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.764328] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.764376] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.764422] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.764469] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.764515] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.764561] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.764607] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.808115] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.808322] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.808406] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.808478] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.808546] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.808610] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.808676] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.808742] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.808808] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.808869] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.808930] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.808992] (ros2_orb_slam) StderrLine: {'line': b'/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.809058] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[4.809121] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.809185] (ros2_orb_slam) StderrLine: {'line': b'   59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.809261] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.809324] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.809384] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.809445] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.809505] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.809566] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.809626] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.809687] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.809747] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.814275] (-) TimerEvent: {}
+[4.823195] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.823377] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.823437] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.823520] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.823575] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.823624] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.823680] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.823731] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.823780] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.823828] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.823876] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.823924] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.823980] (ros2_orb_slam) StderrLine: {'line': b'   60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.824032] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.824085] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[4.824132] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.824179] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.824227] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:32\x1b[m\x1b[K,\n'}
+[4.824274] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.824335] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.824420] (ros2_orb_slam) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.824499] (ros2_orb_slam) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.896631] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:34\x1b[m\x1b[K,\n'}
+[4.897017] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.897091] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.897153] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.897229] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.897301] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.897359] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.897424] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[4.897486] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[4.897559] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Settings.h:232:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.897624] (ros2_orb_slam) StderrLine: {'line': b'  232 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.897686] (ros2_orb_slam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.914402] (-) TimerEvent: {}
+[5.014723] (-) TimerEvent: {}
+[5.115036] (-) TimerEvent: {}
+[5.215402] (-) TimerEvent: {}
+[5.315766] (-) TimerEvent: {}
+[5.396294] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:26\x1b[m\x1b[K,\n'}
+[5.396505] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[5.396596] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.396686] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.396742] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.396794] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[5.396844] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.396893] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.396945] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.396996] (ros2_orb_slam) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(\x1b[01;35m\x1b[Kconst cv::KeyPoint& kp1\x1b[m\x1b[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,\n'}
+[5.397046] (ros2_orb_slam) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.397094] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.397149] (ros2_orb_slam) StderrLine: {'line': b'   83 | hAndtriangulate(const cv::KeyPoint& kp1, \x1b[01;35m\x1b[Kconst cv::KeyPoint& kp2\x1b[m\x1b[K, GeometricCamera* pOther,\n'}
+[5.397328] (ros2_orb_slam) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.397390] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[5.397439] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KpOther\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.397498] (ros2_orb_slam) StderrLine: {'line': b'   83 | cv::KeyPoint& kp1, const cv::KeyPoint& kp2, \x1b[01;35m\x1b[KGeometricCamera* pOther\x1b[m\x1b[K,\n'}
+[5.397548] (ros2_orb_slam) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.397595] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[5.397653] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.397708] (ros2_orb_slam) StderrLine: {'line': b'   84 |                                  \x1b[01;35m\x1b[KSophus::SE3f& Tcw1\x1b[m\x1b[K, Sophus::SE3f& Tcw2,\n'}
+[5.397770] (ros2_orb_slam) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.397819] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.397866] (ros2_orb_slam) StderrLine: {'line': b'   84 |                                  Sophus::SE3f& Tcw1, \x1b[01;35m\x1b[KSophus::SE3f& Tcw2\x1b[m\x1b[K,\n'}
+[5.397921] (ros2_orb_slam) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.397968] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.398016] (ros2_orb_slam) StderrLine: {'line': b'   85 |                                  \x1b[01;35m\x1b[Kconst float sigmaLevel1\x1b[m\x1b[K, const float sigmaLevel2,\n'}
+[5.398071] (ros2_orb_slam) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.398118] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.398165] (ros2_orb_slam) StderrLine: {'line': b'   85 |                               const float sigmaLevel1, \x1b[01;35m\x1b[Kconst float sigmaLevel2\x1b[m\x1b[K,\n'}
+[5.398219] (ros2_orb_slam) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.398403] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[5.398472] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx3Dtriangulated\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.398533] (ros2_orb_slam) StderrLine: {'line': b'   86 |                                  \x1b[01;35m\x1b[KEigen::Vector3f& x3Dtriangulated\x1b[m\x1b[K) { return false;}\n'}
+[5.398594] (ros2_orb_slam) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.398661] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[5.398735] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[5.398788] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.398837] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.398884] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.398933] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[5.398981] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.399029] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.399078] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.399132] (ros2_orb_slam) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[5.399181] (ros2_orb_slam) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.399229] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.399282] (ros2_orb_slam) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[5.399330] (ros2_orb_slam) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.399376] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[5.399422] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[5.399469] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.399514] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.399561] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.399607] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[5.399653] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.399703] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.399750] (ros2_orb_slam) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[5.399796] (ros2_orb_slam) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.399841] (ros2_orb_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[5.399887] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[5.399932] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[5.399978] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[5.400025] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[5.400071] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:39\x1b[m\x1b[K,\n'}
+[5.400118] (ros2_orb_slam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[5.400165] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.400213] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.400259] (ros2_orb_slam) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[5.400304] (ros2_orb_slam) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.400348] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.400396] (ros2_orb_slam) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[5.400443] (ros2_orb_slam) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.400490] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.400538] (ros2_orb_slam) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[5.400590] (ros2_orb_slam) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.400638] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.400685] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.400735] (ros2_orb_slam) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[5.400785] (ros2_orb_slam) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.400832] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.400880] (ros2_orb_slam) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[5.400927] (ros2_orb_slam) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.400973] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.401019] (ros2_orb_slam) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[5.401066] (ros2_orb_slam) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.415878] (-) TimerEvent: {}
+[5.516173] (-) TimerEvent: {}
+[5.600686] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2 tracked_mappoints_to_pointcloud(std::vector<ORB_SLAM3::MapPoint*>, rclcpp::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.601042] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:105:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(tf2Scalar)point_translation.tf2::Vector3::x()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktf2Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[5.601117] (ros2_orb_slam) StderrLine: {'line': b'  105 |                     \x1b[01;35m\x1b[Kpoint_translation.x()\x1b[m\x1b[K, point_translation.y(), point_translation.z()};\n'}
+[5.601172] (ros2_orb_slam) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.601242] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:105:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(tf2Scalar)point_translation.tf2::Vector3::y()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktf2Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[5.601303] (ros2_orb_slam) StderrLine: {'line': b'  105 |                    point_translation.x(), \x1b[01;35m\x1b[Kpoint_translation.y()\x1b[m\x1b[K, point_translation.z()};\n'}
+[5.601350] (ros2_orb_slam) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.601396] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[5.601441] (ros2_orb_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:105:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(tf2Scalar)point_translation.tf2::Vector3::z()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Ktf2Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[5.601488] (ros2_orb_slam) StderrLine: {'line': b'  105 | t_translation.x(), point_translation.y(), \x1b[01;35m\x1b[Kpoint_translation.z()\x1b[m\x1b[K};\n'}
+[5.601534] (ros2_orb_slam) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.601580] (ros2_orb_slam) StderrLine: {'line': b'\n'}
+[5.616315] (-) TimerEvent: {}
+[5.716660] (-) TimerEvent: {}
+[5.816976] (-) TimerEvent: {}
+[5.917291] (-) TimerEvent: {}
+[6.017631] (-) TimerEvent: {}
+[6.118165] (-) TimerEvent: {}
+[6.218466] (-) TimerEvent: {}
+[6.318761] (-) TimerEvent: {}
+[6.419070] (-) TimerEvent: {}
+[6.519376] (-) TimerEvent: {}
+[6.619676] (-) TimerEvent: {}
+[6.720041] (-) TimerEvent: {}
+[6.820499] (-) TimerEvent: {}
+[6.920787] (-) TimerEvent: {}
+[7.021104] (-) TimerEvent: {}
+[7.121495] (-) TimerEvent: {}
+[7.222002] (-) TimerEvent: {}
+[7.322302] (-) TimerEvent: {}
+[7.422615] (-) TimerEvent: {}
+[7.523065] (-) TimerEvent: {}
+[7.623378] (-) TimerEvent: {}
+[7.723678] (-) TimerEvent: {}
+[7.824263] (-) TimerEvent: {}
+[7.924883] (-) TimerEvent: {}
+[8.025238] (-) TimerEvent: {}
+[8.125555] (-) TimerEvent: {}
+[8.226073] (-) TimerEvent: {}
+[8.326486] (-) TimerEvent: {}
+[8.426904] (-) TimerEvent: {}
+[8.527347] (-) TimerEvent: {}
+[8.627867] (-) TimerEvent: {}
+[8.728270] (-) TimerEvent: {}
+[8.828639] (-) TimerEvent: {}
+[8.929182] (-) TimerEvent: {}
+[9.029648] (-) TimerEvent: {}
+[9.129937] (-) TimerEvent: {}
+[9.230242] (-) TimerEvent: {}
+[9.330633] (-) TimerEvent: {}
+[9.431031] (-) TimerEvent: {}
+[9.531329] (-) TimerEvent: {}
+[9.631676] (-) TimerEvent: {}
+[9.732064] (-) TimerEvent: {}
+[9.832373] (-) TimerEvent: {}
+[9.932693] (-) TimerEvent: {}
+[10.033049] (-) TimerEvent: {}
+[10.133416] (-) TimerEvent: {}
+[10.233696] (-) TimerEvent: {}
+[10.334016] (-) TimerEvent: {}
+[10.434323] (-) TimerEvent: {}
+[10.534591] (-) TimerEvent: {}
+[10.634868] (-) TimerEvent: {}
+[10.735191] (-) TimerEvent: {}
+[10.835470] (-) TimerEvent: {}
+[10.935750] (-) TimerEvent: {}
+[11.036029] (-) TimerEvent: {}
+[11.136407] (-) TimerEvent: {}
+[11.236859] (-) TimerEvent: {}
+[11.337165] (-) TimerEvent: {}
+[11.437490] (-) TimerEvent: {}
+[11.537826] (-) TimerEvent: {}
+[11.638301] (-) TimerEvent: {}
+[11.738614] (-) TimerEvent: {}
+[11.838902] (-) TimerEvent: {}
+[11.939263] (-) TimerEvent: {}
+[12.039552] (-) TimerEvent: {}
+[12.139833] (-) TimerEvent: {}
+[12.240137] (-) TimerEvent: {}
+[12.340592] (-) TimerEvent: {}
+[12.440869] (-) TimerEvent: {}
+[12.541147] (-) TimerEvent: {}
+[12.641548] (-) TimerEvent: {}
+[12.742105] (-) TimerEvent: {}
+[12.842383] (-) TimerEvent: {}
+[12.942668] (-) TimerEvent: {}
+[13.042949] (-) TimerEvent: {}
+[13.143236] (-) TimerEvent: {}
+[13.243522] (-) TimerEvent: {}
+[13.343838] (-) TimerEvent: {}
+[13.444174] (-) TimerEvent: {}
+[13.544473] (-) TimerEvent: {}
+[13.644757] (-) TimerEvent: {}
+[13.745134] (-) TimerEvent: {}
+[13.845605] (-) TimerEvent: {}
+[13.945883] (-) TimerEvent: {}
+[14.046156] (-) TimerEvent: {}
+[14.146459] (-) TimerEvent: {}
+[14.246764] (-) TimerEvent: {}
+[14.347048] (-) TimerEvent: {}
+[14.447326] (-) TimerEvent: {}
+[14.547625] (-) TimerEvent: {}
+[14.647949] (-) TimerEvent: {}
+[14.748231] (-) TimerEvent: {}
+[14.848526] (-) TimerEvent: {}
+[14.948825] (-) TimerEvent: {}
+[15.049112] (-) TimerEvent: {}
+[15.149405] (-) TimerEvent: {}
+[15.249753] (-) TimerEvent: {}
+[15.350040] (-) TimerEvent: {}
+[15.450331] (-) TimerEvent: {}
+[15.550621] (-) TimerEvent: {}
+[15.650918] (-) TimerEvent: {}
+[15.751207] (-) TimerEvent: {}
+[15.851495] (-) TimerEvent: {}
+[15.951771] (-) TimerEvent: {}
+[16.052067] (-) TimerEvent: {}
+[16.152303] (-) TimerEvent: {}
+[16.252586] (-) TimerEvent: {}
+[16.352929] (-) TimerEvent: {}
+[16.453284] (-) TimerEvent: {}
+[16.553571] (-) TimerEvent: {}
+[16.653871] (-) TimerEvent: {}
+[16.754255] (-) TimerEvent: {}
+[16.854676] (-) TimerEvent: {}
+[16.875297] (ros2_orb_slam) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable slam\x1b[0m\n'}
+[16.954791] (-) TimerEvent: {}
+[17.055122] (-) TimerEvent: {}
+[17.155476] (-) TimerEvent: {}
+[17.255773] (-) TimerEvent: {}
+[17.356121] (-) TimerEvent: {}
+[17.456452] (-) TimerEvent: {}
+[17.556841] (-) TimerEvent: {}
+[17.657201] (-) TimerEvent: {}
+[17.757504] (-) TimerEvent: {}
+[17.857890] (-) TimerEvent: {}
+[17.958396] (-) TimerEvent: {}
+[18.042261] (ros2_orb_slam) StdoutLine: {'line': b'[100%] Built target slam\n'}
+[18.053978] (ros2_orb_slam) CommandEnded: {'returncode': 0}
+[18.058516] (-) TimerEvent: {}
+[18.070469] (ros2_orb_slam) JobProgress: {'identifier': 'ros2_orb_slam', 'progress': 'install'}
+[18.079484] (ros2_orb_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam'], 'cwd': '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mantus'), ('LC_TIME', 'ru_RU.UTF-8'), ('SSH_AGENT_PID', '2028'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mantus/Pangolin/build/:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/lib:/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mantus'), ('OLDPWD', '/home/mantus/kol_bot/ros2_orb_slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('MANAGERPID', '1783'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=096fb2c57b81f6096dfdbef263c33f6f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install:/home/mantus/kol_bot/ros2_orb_slam/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mantus'), ('JOURNAL_STREAM', '8:57461'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mantus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mantus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mantus-Legion-5-15ACH6H:@/tmp/.ICE-unix/2101,unix/mantus-Legion-5-15ACH6H:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', 'd5925e2ee11c4bd5a4544114ca5e3660'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f291701b_4760_4b46_818b_a8f39ed877ab'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam:/home/mantus/kol_bot/ros2_orb_slam/install/ros2_orb_slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=096fb2c57b81f6096dfdbef263c33f6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam:/home/mantus/kol_bot/ros2_orb_slam/install/ros2_orb_slam:/opt/ros/foxy')]), 'shell': False}
+[18.087059] (ros2_orb_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.087361] (ros2_orb_slam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.087666] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/ros2_orb_slam/slam\n'}
+[18.087859] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam\n'}
+[18.088022] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam\n'}
+[18.088190] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/ament_prefix_path.sh\n'}
+[18.088351] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/ament_prefix_path.dsv\n'}
+[18.088513] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/path.sh\n'}
+[18.088673] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/path.dsv\n'}
+[18.088832] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.bash\n'}
+[18.088984] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.sh\n'}
+[18.089135] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.zsh\n'}
+[18.089301] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.dsv\n'}
+[18.089434] (ros2_orb_slam) StdoutLine: {'line': b'-- Symlinking: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.dsv\n'}
+[18.096411] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/packages/ros2_orb_slam\n'}
+[18.096601] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/cmake/ros2_orb_slamConfig.cmake\n'}
+[18.096700] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/cmake/ros2_orb_slamConfig-version.cmake\n'}
+[18.096865] (ros2_orb_slam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.xml\n'}
+[18.098519] (ros2_orb_slam) CommandEnded: {'returncode': 0}
+[18.136261] (ros2_orb_slam) JobEnded: {'identifier': 'ros2_orb_slam', 'rc': 0}
+[18.137605] (-) EventReactorShutdown: {}

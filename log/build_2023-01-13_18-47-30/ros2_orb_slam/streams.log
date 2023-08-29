@@ -1,0 +1,40 @@
+[0.011s] Invoking command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16
+[0.038s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.193s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.537s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.554s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.556s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.787s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.827s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.879s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.952s] -- Configured cppcheck include dirs: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/Eigen;/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3;/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include;/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels;/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus
+[0.953s] -- Configured cppcheck exclude dirs and/or files: 
+[1.028s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.028s] -- Configured cpplint exclude dirs and/or files: 
+[1.039s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.055s] -- Added test 'lint_cmake' to check CMake code style
+[1.063s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.133s] -- Added test 'uncrustify' to check C / C++ code style
+[1.133s] -- Configured uncrustify additional arguments: 
+[1.140s] -- Added test 'xmllint' to check XML markup files
+[1.143s] -- Configuring done
+[1.214s] -- Generating done
+[1.215s] -- Build files have been written to: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam
+[1.252s] [35m[1mScanning dependencies of target rgbd[0m
+[1.294s] [ 33%] [32mBuilding CXX object CMakeFiles/rgbd.dir/src/rgbd.cpp.o[0m
+[1.967s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd.cpp:27:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/odometry.h: No such file or directory
+[1.967s]    27 | #include [01;31m[K<nav_msgs/odometry.h>[m[K
+[1.967s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.967s] compilation terminated.
+[1.984s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:63: CMakeFiles/rgbd.dir/src/rgbd.cpp.o] Error 1
+[1.984s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgbd.dir/all] Error 2
+[1.985s] make: *** [Makefile:141: all] Error 2
+[1.987s] Invoked command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16

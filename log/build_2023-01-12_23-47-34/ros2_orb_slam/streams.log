@@ -1,0 +1,681 @@
+[0.013s] Invoking command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16
+[0.058s] [35m[1mScanning dependencies of target slam[0m
+[0.108s] [ 33%] [32mBuilding CXX object CMakeFiles/slam.dir/src/rgbd-slam-node.cpp.o[0m
+[3.675s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:30[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.675s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.675s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[3.675s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.675s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[3.675s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.755s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.755s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.755s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[3.755s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.755s]    62 | Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.755s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[3.756s] 
+[3.756s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.756s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.756s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.756s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.756s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.775s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.775s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.776s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.776s]    59 | :Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.776s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[3.776s] 
+[3.776s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.776s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.777s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.777s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.777s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.777s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.777s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.777s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.778s]    60 | :Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.778s]       |                                                              [01;35m[K^~~~~~~~~~[m[K
+[3.778s] 
+[3.778s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.778s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.778s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.778s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.778s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.824s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.824s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.825s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.825s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[3.825s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[3.825s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[3.825s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.825s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[3.825s]       |                                      [01;35m[K^[m[K
+[3.825s]       |                                      [31m[K-[m[K
+[4.121s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.121s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.121s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.121s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.122s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[4.122s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[4.122s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.122s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.122s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.122s] 
+[4.122s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.122s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.123s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.123s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.123s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.123s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.150s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.150s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.150s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[4.150s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[4.150s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.150s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.151s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.151s] 
+[4.151s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.151s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.151s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.151s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.151s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.179s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.179s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.180s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[4.180s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[4.180s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.180s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.180s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.180s] 
+[4.180s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.180s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.181s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.181s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.181s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.181s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.181s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.181s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.181s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.181s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.182s] 
+[4.182s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.182s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.182s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.182s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.182s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.248s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.248s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.248s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.248s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[4.248s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.248s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.248s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.249s] 
+[4.249s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.249s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.249s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.249s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.249s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.261s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.261s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.262s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.262s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.262s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.262s] 
+[4.262s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.262s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.262s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.262s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.263s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.342s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.342s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.342s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.343s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.343s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[4.343s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.343s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.343s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.343s] 
+[4.343s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.343s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.344s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.344s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.344s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.344s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.344s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.345s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.345s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.345s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.345s] 
+[4.345s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.345s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.346s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.346s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.346s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.346s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.346s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.541s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.541s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.542s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[4.542s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[4.542s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.542s]    62 | f Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.542s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.542s] 
+[4.542s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.542s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.543s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.543s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.543s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.543s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.572s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.572s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.572s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.572s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.573s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[4.573s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[4.573s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.573s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.573s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.573s] 
+[4.573s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.573s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.574s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.574s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.574s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.574s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.574s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.575s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.575s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.575s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.575s] 
+[4.575s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.575s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.576s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.576s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.576s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.576s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.611s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.611s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.612s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.612s] /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[4.612s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[4.612s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.613s]    59 | n::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.613s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.613s] 
+[4.613s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.613s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.614s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.614s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.614s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.614s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.626s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Converter.h:26[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:33[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.627s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.627s]    60 | n::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.627s]       |                                                        [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.627s] 
+[4.627s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/Core:161[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/LU:11[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.627s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:28[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.628s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.628s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.628s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.628s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.694s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Frame.h:34[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[4.694s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[4.695s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Settings.h:232:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[4.695s]   232 | }[01;35m[K;[m[K
+[4.695s]       |  [01;35m[K^[m[K
+[5.168s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:26[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[5.168s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[5.168s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[5.168s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.168s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[5.168s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.168s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.169s]    83 | hAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[5.169s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.169s] 
+[5.169s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.169s]    83 | cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[5.169s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.169s] 
+[5.169s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.169s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[5.169s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[5.169s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.169s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[5.169s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[5.170s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.170s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[5.170s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.170s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.170s]    85 |                               const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[5.170s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.170s] 
+[5.170s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.171s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[5.171s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[5.171s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[5.171s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[5.171s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[5.172s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[5.172s]   102 |         const float [01;35m[Kprecision[m[K;
+[5.172s]       |                     [01;35m[K^~~~~~~~~[m[K
+[5.172s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[5.172s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[5.172s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[5.172s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[5.172s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[5.172s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[5.172s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[5.172s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.173s] In file included from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Atlas.h:27[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/System.h:31[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.hpp:19[m[K,
+[5.173s]                  from [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/src/rgbd-slam-node.cpp:1[m[K:
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[5.173s]   102 |         const float [01;35m[Kprecision[m[K;
+[5.173s]       |                     [01;35m[K^~~~~~~~~[m[K
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[5.173s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[5.173s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[5.173s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[5.173s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[5.173s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[5.174s]   102 |         const float [01;35m[Kprecision[m[K;
+[5.174s]       |                     [01;35m[K^~~~~~~~~[m[K
+[5.174s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K-Wreorder[m[K]
+[5.174s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[5.174s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[5.174s] [01m[K/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[5.174s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[5.174s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.129s] [ 66%] [32m[1mLinking CXX executable slam[0m
+[17.212s] [100%] Built target slam
+[17.223s] Invoked command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16
+[17.255s] Invoking command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam
+[17.264s] -- Install configuration: ""
+[17.265s] -- Installing: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/ros2_orb_slam/slam
+[17.267s] -- Set runtime path of "/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/ros2_orb_slam/slam" to ""
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/ament_prefix_path.sh
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/ament_prefix_path.dsv
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/path.sh
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/environment/path.dsv
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.bash
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.sh
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.zsh
+[17.267s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/local_setup.dsv
+[17.267s] -- Installing: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.dsv
+[17.268s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ament_index/resource_index/packages/ros2_orb_slam
+[17.268s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/cmake/ros2_orb_slamConfig.cmake
+[17.268s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/cmake/ros2_orb_slamConfig-version.cmake
+[17.268s] -- Up-to-date: /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.xml
+[17.270s] Invoked command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam

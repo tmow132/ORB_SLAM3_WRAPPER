@@ -1,0 +1,104 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.135s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f686cc9f790>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f686cc9f790>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f686cc9fd00>)
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.157s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ros2_orb_slam'
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install
+[0.206s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/foxy
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ros2_orb_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_orb_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam', 'merge_install': False, 'path': '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam'
+[0.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16
+[22.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam -- -j16 -l16
+[22.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam
+[22.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_orb_slam)
+[22.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/build/ros2_orb_slam
+[22.739s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam' for CMake module files
+[22.739s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam' for CMake config files
+[22.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_orb_slam', 'cmake_prefix_path')
+[22.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.ps1'
+[22.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.dsv'
+[22.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.sh'
+[22.743s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib'
+[22.743s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/bin'
+[22.743s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/pkgconfig/ros2_orb_slam.pc'
+[22.743s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/python3.8/site-packages'
+[22.743s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/bin'
+[22.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.ps1'
+[22.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.dsv'
+[22.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.sh'
+[22.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.bash'
+[22.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.zsh'
+[22.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/colcon-core/packages/ros2_orb_slam)
+[22.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_orb_slam)
+[22.773s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam' for CMake module files
+[22.774s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam' for CMake config files
+[22.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_orb_slam', 'cmake_prefix_path')
+[22.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.ps1'
+[22.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.dsv'
+[22.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/hook/cmake_prefix_path.sh'
+[22.781s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib'
+[22.781s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/bin'
+[22.781s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/pkgconfig/ros2_orb_slam.pc'
+[22.781s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/lib/python3.8/site-packages'
+[22.782s] Level 1:colcon.colcon_core.environment:checking '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/bin'
+[22.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.ps1'
+[22.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.dsv'
+[22.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.sh'
+[22.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.bash'
+[22.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/ros2_orb_slam/package.zsh'
+[22.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/ros2_orb_slam/share/colcon-core/packages/ros2_orb_slam)
+[22.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.786s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.796s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.814s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/local_setup.ps1'
+[22.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/_local_setup_util_ps1.py'
+[22.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/setup.ps1'
+[22.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/local_setup.sh'
+[22.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/_local_setup_util_sh.py'
+[22.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/setup.sh'
+[22.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/local_setup.bash'
+[22.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/setup.bash'
+[22.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/local_setup.zsh'
+[22.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mantus/kol_bot/ros2_orb_slam/ros2_orb_slam/install/setup.zsh'
