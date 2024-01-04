@@ -70,37 +70,33 @@ public:
 class MonoInertialNode : public rclcpp::Node
 {
 public:
-  MonoInertialNode() : Node("Mono_Inertial")
+    MonoInertialNode(const std::vector<std::string>& args)
+    : Node("Mono_Inertial")
   {
     rclcpp::Logger logger = this->get_logger();
 
 
     bool bEqual = false;
     auto command_line_args = this->get_node_options().arguments();
-
-    if (command_line_args.size() < 3 || command_line_args.size() > 4)
+	
+    if (args.size() < 1)
     {
+      std::cout<<command_line_args.size()<<std::endl;
       RCLCPP_ERROR(logger, "Usage: ros2 run your_package_name Mono_Inertial path_to_vocabulary path_to_settings [do_equalize]");
       rclcpp::shutdown();
     }
 
-    if (command_line_args.size() == 4)
-    {
-      std::string sbEqual(command_line_args[3]);
-      if (sbEqual == "true")
-        bEqual = true;
-    }
-
+	bEqual = true;
     // Create SLAM system. It initializes all system threads and gets ready to process frames.
-    ORB_SLAM3::System SLAM(command_line_args[1], command_line_args[2], ORB_SLAM3::System::IMU_MONOCULAR, true);
+    ORB_SLAM3::System SLAM(args[1], args[2], ORB_SLAM3::System::IMU_MONOCULAR, true);
     imugb = new ImuGrabber();
     igb = new ImageGrabber(&SLAM, imugb, bEqual);
 
     // Maximum delay, 5 seconds
     sub_imu = this->create_subscription<sensor_msgs::msg::Imu>(
-        "/imu", 1000, std::bind(&ImuGrabber::GrabImu, imugb, std::placeholders::_1));
+        "/imu", 5000, std::bind(&ImuGrabber::GrabImu, imugb, std::placeholders::_1));
     sub_img0 = this->create_subscription<sensor_msgs::msg::Image>(
-        "/camera/image_raw", 100, std::bind(&ImageGrabber::GrabImage, igb, std::placeholders::_1));
+        "/depth_camera/image_raw", 100, std::bind(&ImageGrabber::GrabImage, igb, std::placeholders::_1));
 
     sync_thread = std::thread(&ImageGrabber::SyncWithImu, igb);
 
@@ -119,7 +115,9 @@ private:
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MonoInertialNode>());
+  rclcpp::NodeOptions options;
+  auto node = std::make_shared<MonoInertialNode>(std::vector<std::string>(argv, argv + argc));
+  rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
 }
