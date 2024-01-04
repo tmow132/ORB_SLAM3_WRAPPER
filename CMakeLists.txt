@@ -54,10 +54,13 @@ set(LIBS
 
 add_executable(slam src/rgbd.cpp src/rgbd-slam-node.cpp)
 add_executable(mono src/mono.cpp src/mono-slam-node.cpp)
+add_executable(monoIN src/mono_In.cpp)
 target_link_libraries(slam ${LIBS})
 target_link_libraries(mono ${LIBS})
+target_link_libraries(monoIN ${LIBS})
 ament_target_dependencies(slam rclcpp sensor_msgs cv_bridge message_filters tf2_ros tf2 image_transport Pangolin)
 ament_target_dependencies(mono rclcpp sensor_msgs cv_bridge message_filters tf2_ros tf2 image_transport Pangolin)
+ament_target_dependencies(monoIN rclcpp sensor_msgs cv_bridge message_filters tf2_ros tf2 image_transport Pangolin)
 
 install(TARGETS slam
   DESTINATION lib/${PROJECT_NAME})
