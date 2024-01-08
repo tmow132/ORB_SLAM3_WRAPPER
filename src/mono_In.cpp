@@ -76,7 +76,7 @@ public:
     rclcpp::Logger logger = this->get_logger();
 
 
-    bool bEqual = false;
+    bool bEqual = true;
     auto command_line_args = this->get_node_options().arguments();
 	
     if (args.size() < 1)
@@ -94,7 +94,7 @@ public:
 
     // Maximum delay, 5 seconds
     sub_imu = this->create_subscription<sensor_msgs::msg::Imu>(
-        "/imu", 5000, std::bind(&ImuGrabber::GrabImu, imugb, std::placeholders::_1));
+        "/imu", 1000, std::bind(&ImuGrabber::GrabImu, imugb, std::placeholders::_1));
     sub_img0 = this->create_subscription<sensor_msgs::msg::Image>(
         "/depth_camera/image_raw", 100, std::bind(&ImageGrabber::GrabImage, igb, std::placeholders::_1));
 
@@ -164,6 +164,7 @@ void ImageGrabber::SyncWithImu()
     if (!img0Buf.empty() && !mpImuGb->imuBuf.empty())
     {
       tIm = img0Buf.front()->header.stamp.sec;
+      rclcpp::Time current_frame_time = img0Buf.front()->header.stamp;
       if (tIm > mpImuGb->imuBuf.back()->header.stamp.sec)
         continue;
       {
@@ -175,7 +176,8 @@ void ImageGrabber::SyncWithImu()
 
       std::vector<ORB_SLAM3::IMU::Point> vImuMeas;
       mpImuGb->mBufMutex.lock();
-      if (!mpImuGb->imuBuf.empty())
+      
+      if (!mpImuGb->imuBuf.empty() )
       {
         // Load imu measurements from buffer
         vImuMeas.clear();
@@ -184,19 +186,22 @@ void ImageGrabber::SyncWithImu()
           double t = mpImuGb->imuBuf.front()->header.stamp.sec;
           cv::Point3f acc(mpImuGb->imuBuf.front()->linear_acceleration.x, mpImuGb->imuBuf.front()->linear_acceleration.y, mpImuGb->imuBuf.front()->linear_acceleration.z);
           cv::Point3f gyr(mpImuGb->imuBuf.front()->angular_velocity.x, mpImuGb->imuBuf.front()->angular_velocity.y, mpImuGb->imuBuf.front()->angular_velocity.z);
+          //std::cout<<t<<std::endl;
           vImuMeas.push_back(ORB_SLAM3::IMU::Point(acc, gyr, t));
           mpImuGb->imuBuf.pop();
+          //std::cout<<vImuMeas.size()<<std::endl;
         }
+        
       }
       mpImuGb->mBufMutex.unlock();
       if (mbClahe)
         mClahe->apply(im, im);
-	
-      	mpSLAM->TrackMonocular(im, tIm, vImuMeas);
-    	rclcpp::Time current_frame_time = img0Buf.front()->header.stamp;
+
+      mpSLAM->TrackMonocular(im, tIm, vImuMeas);
+    	//rclcpp::Time current_frame_time = img0Buf.front()->header.stamp;
     }
 
-    std::chrono::milliseconds tSleep(1);
+    std::chrono::milliseconds tSleep(2);
     std::this_thread::sleep_for(tSleep);
   }
 }
@@ -205,6 +210,7 @@ void ImuGrabber::GrabImu(const sensor_msgs::msg::Imu::SharedPtr imu_msg)
 {
   mBufMutex.lock();
   imuBuf.push(imu_msg);
+  
   mBufMutex.unlock();
   return;
 }
